@@ -1,0 +1,71 @@
+git client 
+1. fork 
+2. source tree 
+
+!) git 처음 사용 (첫 리포지토리 만들기)
+   a) 내 컴퓨터에 Local Repository 를 만들고 원격 git repository 에 푸시 
+   b) 원격 git repository 를 만들고 내 컴퓨터에 clone 
+
+*) 이미 원격 git repository 가 있는 경우는 무조건 clone 으로 진행한다. 
+
+-> gitflow 연습  dsa
+
+
+jekyll 
+
+1. https://jekyllrb.com/
+   http://jekyllrb-ko.github.io/
+   https://jekyllrb.com/docs/installation/ 
+   Ruby+Devkit 2.7.2-1 (x64)
+   https://git-scm.com/download/win
+
+   ridk install 
+   3번 
+   gem install jekyll bundler 
+   jekyll -v 
+
+   *) git bash 를 주로사용 
+   bundle install 
+   bundle exec jekyll serve
+   
+2. http://jekyllthemes.org/ 
+   theme chirpy 
+   http://jekyllthemes.org/themes/jekyll-theme-chirpy/ 
+   https://chirpy.cotes.info/posts/customize-the-favicon/ 
+
+3. MD문법 
+   https://guides.github.com/features/mastering-markdown/
+   https://gist.github.com/ihoneymon/652be052a0727ad59601 
+   https://post.naver.com/viewer/postView.nhn?volumeNo=24627214&memberNo=42458017
+   https://shields.io/
+
+4. 댓글 
+   https://disqus.com/ 
+   https://dongsik93.github.io/til/2019/07/29/til-etc-jekyll-disqus/ 
+
+------
+
+작업 
+_post -> _postbackup
+
+한국 웹사이트도 ko-KR로 표기하기도 하는데 '-', 대쉬 뒤에 오는 문자는 국가 코드를 의미한다. (ISO3166) 영어도 미국식 영어(en-US)와 영국식 영어(en-GB)가 조금씩 다르듯이 어떤 언어가 사용되었는지 구분하여 정확히 표기하는 방식으로 보인다.
+
+폰트변경
+https://fonts.google.com/?subset=korean 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+jekyll-theme-chripy.scss 
+
+
+--drafts
+YEAR-MONTH-DAY-title.MARKUP
+2011-12-31-new-years-eve-is-awesome.md
+2012-09-12-how-to-write-a-blog.md
+
+
+-- about 예제 
+
+*) chripy theme 
+
+gh-page에서 automation 진행 
+
+https://jamesu.dev/about
