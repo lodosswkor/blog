@@ -17,7 +17,7 @@ timezone: Asia/Seoul
 # --------------------------
 title: Harry's Blog                          # the main title
 
-tagline: 살려주세요~~!!   # it will display as the sub-title
+tagline:    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Harry, Development, Tech, Study, 블로그
@@ -69,7 +69,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
